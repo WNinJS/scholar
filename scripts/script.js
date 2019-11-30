@@ -65,3 +65,14 @@ chart.cursor.innerRadius = am4core.percent(50);
 chart.cursor.lineY.disabled = true;
 
 }); // end am4core.ready()
+
+
+
+
+
+
+
+// logout button
+function logout() {
+	location.href= "login.html";
+}
