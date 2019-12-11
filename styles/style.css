@@ -12,9 +12,14 @@ div.container-fluid {
 .bg-primary {
 	background-color: #3f51b5!important;
 }
+
 .btn-primary {
 	background-color: #3f51b5!important;
 	color: #fff!important;
+}
+.btn-primary:hover {
+	background-color: #fff!important;
+	color: #3f51b5!important;
 }
 .btn-login {
 	color: #fff!important;
@@ -61,4 +66,14 @@ form {
 	padding: 50px;
 	width: 50%;
 	box-shadow: 0 0 5px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+
+
+
+.line {
+	margin-top: 100px;
+}
+.line button {
+	height: 60px;
 }
