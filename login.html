@@ -20,13 +20,9 @@
 
 	
 	<div class="container-fluid login-screen d-flex align-items-center justify-content-center">		
-		<section class="container d-flex justify-content-center align-items-center">
-			<form method="POST" class="d-flex flex-column align-items-center justify-content-center">
-				<h1 class="login-title">Обазовательная система "Лабараториум"</h1>
-				<input class="shadow" type="text" placeholder="Ваш логин" required>
-				<input class="shadow" type="password" placeholder="Ваш пароль" required>
-				<button onclick="login();" class="shadow btn btn-danger btn-login">Войти</button>
-			</form>
+		<section class="container d-flex flex-column justify-content-center align-items-center">
+			<button onclick="teacherLogin();" class="shadow btn btn-danger btn-login">Войти как преподаватель</button>
+			<button onclick="studentLogin();" class="shadow btn btn-danger btn-login">Войти как ученик</button>
 		</section>
 	</div>
 
